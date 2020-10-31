@@ -1,7 +1,7 @@
 # Automation Code Challenge Cs-cart.com
 This project aims to automate a purchase on the website http://demo.cs-cart.com, using the concepts of BDD and Tests UI.
 
-##Steps
+## Steps
 * Access http://demo.cs-cart.com;
 * Search for any product;
 * Access this product on the table grid;
@@ -19,3 +19,7 @@ This project aims to automate a purchase on the website http://demo.cs-cart.com,
 * Cucumber
 * junit
 * Selenium
+
+## Future
+* Implement reading of all products resulting from the product grid.
+* Test other scenarios: (1- More than 1 unit of the same product. 2- More than 1 type of product.)
