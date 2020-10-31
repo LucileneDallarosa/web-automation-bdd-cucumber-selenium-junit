@@ -17,9 +17,12 @@ This project aims to automate a purchase on the website http://demo.cs-cart.com,
 
 ## Frameworks used
 * Cucumber
-* junit
+* Junit
 * Selenium
 
 ## Future
-* Implement reading of all products resulting from the product grid.
-* Test other scenarios: (1- More than 1 unit of the same product. 2- More than 1 type of product.)
+* Read all the products in the results grid and select according to the test definition;
+* Test other scenarios, such as: 
+    * add more than one unit of the same product to the cart;
+    * add more than one type of product on the cart;
+    * test the other payment types.
