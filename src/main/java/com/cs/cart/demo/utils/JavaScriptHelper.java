@@ -29,7 +29,7 @@ public class JavaScriptHelper {
         Thread.sleep(1000);
     }
 
-    public void removeElementCaptcha () {
+    public void removeElementCaptcha() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("return document.getElementsByClassName('captcha')[0].remove();");
     }
